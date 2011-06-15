@@ -1,0 +1,97 @@
+@CHARSET "utf-8";
+
+html,body {
+	width: 100%;
+	height: 78px;
+	background-color: #F2F2EE;
+	font-size: 9pt;
+}
+
+table {
+	border-collapse: collapse;
+	empty-cells: show;
+}
+
+#menu_box {
+	width: 100%;
+	height: 18px;
+	border-bottom: solid 1px #BFBFBF;
+}
+	#menu {
+		width: 100%;
+		margin: 1px;
+	}
+		#menu td {
+			position: relative;
+			padding: 1px 5px;
+			cursor: default;
+			border: solid 1px #F2F2EE;
+		}
+		#menu .over {
+			background-color: #1A63C1;
+			color: #FFF;
+		}
+	
+#submenu {
+	position: absolute;
+	top: 18px;
+	width: 150px;
+	background-color: white;
+	border: solid 1px #BFBFBF;
+	z-index: 90;
+}
+	#submenu div {
+		padding: 2px 0px;
+		font-size: 8pt;
+		text-indent: 10px;
+		cursor: default;
+	}
+	#submenu div.hover {
+		background-color: #1A63C1;
+		color: #FFF;
+	}
+	#submenu div.disabled {
+		color: #DDD;
+	}
+		
+#button_box {
+	width: 100%;
+	height: 30px;
+	border-bottom: solid 1px #BFBFBF;
+	padding: 2px 4px;
+}
+	#button_box div {
+		width:25px;
+	}
+	#button_box div.btn_component{
+		position: relative;
+		float: left;
+		height: 27px;
+		padding: 1px;
+		border: solid 1px #F2F2EE;
+		vertical-align: middle;
+		cursor: default;
+	}
+	#button_box img {
+		width: 24px;
+		height: 24px;
+	}
+	#button_box li {
+		display: inline;
+		list-style: none;
+	}
+	
+#address_box {
+	width: 100%;
+	border-bottom: solid 1px #BFBFBF;
+}
+	#address_box table{
+		width: 100%;
+	}
+	#address_box td {
+		padding: 0 5px;
+	}
+	#address_box input{
+		width: 100%;
+		height: 16px;
+	}

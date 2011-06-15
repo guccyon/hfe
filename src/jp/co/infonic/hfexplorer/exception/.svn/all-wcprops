@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/hfe/!svn/ver/17/trunk/src/jp/co/infonic/hfexplorer/exception
+END
+TargetNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/hfe/!svn/ver/17/trunk/src/jp/co/infonic/hfexplorer/exception/TargetNotFoundException.java
+END
+ValidateException.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/hfe/!svn/ver/17/trunk/src/jp/co/infonic/hfexplorer/exception/ValidateException.java
+END

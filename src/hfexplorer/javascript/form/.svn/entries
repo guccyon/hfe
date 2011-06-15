@@ -1,0 +1,34 @@
+10
+
+dir
+19
+http://svn.nanoflops.net/svn/hfe/trunk/src/hfexplorer/javascript/form
+http://svn.nanoflops.net/svn/hfe
+
+
+
+2008-02-19T14:28:36.321802Z
+3
+higuchi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6cdfce95-d71f-0410-a9fe-ad3855e455ac
+
+usability
+dir
+
+validate
+dir
+

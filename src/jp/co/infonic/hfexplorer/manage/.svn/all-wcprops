@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/hfe/!svn/ver/17/trunk/src/jp/co/infonic/hfexplorer/manage
+END
+ManageCommon.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/hfe/!svn/ver/17/trunk/src/jp/co/infonic/hfexplorer/manage/ManageCommon.java
+END
+ManageTopMenu.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/hfe/!svn/ver/17/trunk/src/jp/co/infonic/hfexplorer/manage/ManageTopMenu.java
+END
+ManagePublicDirectory.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/hfe/!svn/ver/17/trunk/src/jp/co/infonic/hfexplorer/manage/ManagePublicDirectory.java
+END
+ManageUpdateSecurity.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/hfe/!svn/ver/17/trunk/src/jp/co/infonic/hfexplorer/manage/ManageUpdateSecurity.java
+END
+ManageUpdateFileUpload.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/hfe/!svn/ver/17/trunk/src/jp/co/infonic/hfexplorer/manage/ManageUpdateFileUpload.java
+END
+ManageAuthError.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/hfe/!svn/ver/17/trunk/src/jp/co/infonic/hfexplorer/manage/ManageAuthError.java
+END
+ManageCheckAuth.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/hfe/!svn/ver/17/trunk/src/jp/co/infonic/hfexplorer/manage/ManageCheckAuth.java
+END
+ManageCssReturner.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/hfe/!svn/ver/17/trunk/src/jp/co/infonic/hfexplorer/manage/ManageCssReturner.java
+END
+ManageUpdatePublicDirectory.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/hfe/!svn/ver/17/trunk/src/jp/co/infonic/hfexplorer/manage/ManageUpdatePublicDirectory.java
+END
+ManageSecurity.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/hfe/!svn/ver/17/trunk/src/jp/co/infonic/hfexplorer/manage/ManageSecurity.java
+END
+ManageFileUpload.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/hfe/!svn/ver/17/trunk/src/jp/co/infonic/hfexplorer/manage/ManageFileUpload.java
+END

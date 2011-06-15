@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>HttpFileExplorer(toolbar)</title>
+	<link rel="stylesheet" type="text/css" href="css/toolbar.css"/>
+	<script type="text/javascript" src="javascript/infonic.js" charset="utf-8"></script>
+	<script type="text/javascript" src="javascript/prototype.js?11" charset="utf-8"></script>
+	<script type="text/javascript" src="javascript/jquery.js" charset="utf-8"></script>
+	<script type="text/javascript">	jQuery.noConflict();	</script>
+	<script type="text/javascript" src="javascript/infonic.prototype.extend.js" charset="utf-8"></script>
+	<script type="text/javascript" src="javascript/form/usability/infonic.HighlightFocus.js" charset="utf-8"></script>
+	<script type="text/javascript" src="javascript/toolbar.js" charset="utf-8"></script>
+	<script type="text/javascript" src="javascript/component/infonic.BlockButton.js" charset="utf-8"></script>
+	<style type="text/css">
+	</style>
+</head>
+<body>
+<div id="menu_box">
+	<table>
+	<tr id="menu">
+		<td id="file">ファイル</td>
+		<td id="edit">編集</td>
+		<td id="help">ヘルプ</td>
+	</tr>
+	</table>
+	<div id="submenu"></div>
+</div>
+
+<div id="button_box">
+	<div id="up_folder" class="btn_component"><img src="image/toolbar/up_folder.jpg" alt="上へ"/></div>
+	<div id="remove" class="btn_component"><img src="image/toolbar/remove.jpg" alt="削除"/></div>
+	<div id="search" class="btn_component"><img src="image/toolbar/search.jpg" alt="検索"/></div>
+	<div id="cut" class="btn_component"><img src="image/toolbar/cut.jpg" alt="切取"/></div>
+	<div id="copy" class="btn_component"><img src="image/toolbar/copy.jpg" alt="コピー"/></div>
+	<div id="favorite" class="btn_component"><img src="image/toolbar/favorite.jpg" alt="お気に入り"/></div>
+	<div id="disp_mode" class="btn_component"><img src="image/toolbar/disp_mode.jpg" alt="表示"/></div>
+</div>
+
+<div id="address_box">
+	<table>
+	<tr>
+		<td style="width: 60px;"><label for="address" accesskey="d">アドレス(D)</label></td>
+		<td><input type="text" id="address" name="addresss" /></td>
+		<td style="width: 45px;"></td>
+	</tr>
+	</table>
+</div>
+</body>
+</html>

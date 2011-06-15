@@ -1,0 +1,7 @@
+INSERT INTO HFE_SYSTEM_PROPERTY (
+    KEY,
+    VALUE
+) VALUES (
+	?,
+	?
+)

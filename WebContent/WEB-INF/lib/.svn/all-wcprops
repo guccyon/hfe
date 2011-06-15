@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/hfe/!svn/ver/17/trunk/WebContent/WEB-INF/lib
+END
+ant.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/hfe/!svn/ver/17/trunk/WebContent/WEB-INF/lib/ant.jar
+END
+commons-fileupload-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/hfe/!svn/ver/17/trunk/WebContent/WEB-INF/lib/commons-fileupload-1.0.jar
+END
+h2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/hfe/!svn/ver/17/trunk/WebContent/WEB-INF/lib/h2.jar
+END
+log4j-1.2.13.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/hfe/!svn/ver/17/trunk/WebContent/WEB-INF/lib/log4j-1.2.13.jar
+END

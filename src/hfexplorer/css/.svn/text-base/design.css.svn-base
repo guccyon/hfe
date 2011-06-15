@@ -1,0 +1,77 @@
+@CHARSET "utf-8";
+
+		
+/* -------- main --------- */
+/* ---- detail ----*/
+#detail_container {
+	position: relative;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+	#detail_container table {
+		table-layout: fixed;
+		empty-cells: show;
+		width: 100%;
+		border-spacing: 1px;
+	}
+	#detail_container td {
+		padding: 1px 2px;
+		border: solid 1px #FFF;
+	}
+	#detail_container th {
+		padding: 1px 2px;
+		border: solid 1px #FFF;
+	}
+		#detail_container tr.selected td.file_name {
+			background-color: #1A63C1;
+		}
+		#detail_container tr.selected td.file_name a{
+			color: #FFF;
+		}
+	
+	table#detail_header {}
+		#detail_header th{
+			height: 20px;
+			border-right: solid 1px #BFBFBF;
+			border-bottom:solid 2px #BFBFBF;
+			background-color: #E5E5D4;
+		}
+
+#data_grid {
+	overflow:auto;
+	overflow-x: hidden;
+	height:100px;
+	width: 100%;
+}
+	table#detail_body {}
+		#detail_container .file_name {
+			width:350px;
+			padding: 0 3px 0 0;
+			text-align: left;
+		}
+			#detail_container .icon {
+				width: 20px;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				margin-left: 3px;
+				margin-right: 3px;
+				float: left;
+			}
+			
+		#detail_container th.file_name { text-indent: 5px; }
+		
+		#detail_container .file_size { width:110px;	text-align: right; }
+		#detail_container .create_user { width: 110px; }
+		#detail_container .create_date { width:100px; text-align: left; }
+		#detail_container .permission { width: 15px; text-align: center; padding: 0}
+		#detail_container .description { text-align: left; }
+		
+			#detail_container td.edit {padding: 0;}
+			#detail_container .file_name input {
+				width: 300px;
+				font-size: small;
+			}
+			
+			

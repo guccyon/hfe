@@ -1,0 +1,72 @@
+@CHARSET "utf-8";
+
+/* -------- title --------- */
+#sidebar_title {
+	height: 20px;
+	text-indent: 20px;
+	border-top: solid 1px #FFF;
+	border-left: solid 1px #FFF;
+	border-bottom: solid 1px gray;
+	border-right: solid 1px gray;
+	background-color: #E5E5D4;
+}
+
+/* -------- body ---------- */
+#sidebar_body {
+	width: 100%;
+	vertical-align: top;
+	overflow: auto;
+}
+
+
+
+/* -------- folder_tree --------- */
+#tree_head div {
+	width: 98%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	text-align: right;
+	vertical-align: middle;
+}
+	
+#sidebar_body img { vertical-align: middle; }
+	
+#sidebar_body ul {
+	margin-left: 0px;
+	padding-left: 18px;
+	list-style-position: outside;
+	line-height: 1.4;
+	display: none;
+}
+
+#sidebar_body li {
+	padding: 0;
+	margin: 0;
+	vertical-align: middle;
+	list-style: url("../image/tree/tree_line01.gif");
+	white-space: nowrap;
+}
+#sidebar_body li.end {
+	vertical-align: middle;
+	list-style: url("../image/tree/tree_line02.gif");
+}
+	#sidebar_body a:hover {
+		text-decoration:underline; color:#1e78ff;
+	}
+	#sidebar_body a span {
+		padding: 1px 3px;
+	}
+	#sidebar_body a span.active {
+		background-color: #1A63C1;
+		color: #FFF;
+	}
+		#document_root {
+			padding-left: 10px;
+		}
+		ul#public_directory {
+			margin-top:5px;
+			margin-left: 0px;
+			padding-left: 28px;
+		}
+		

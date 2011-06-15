@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/hfe/!svn/ver/17/trunk/WebContent/WEB-INF/classes
+END
+log4j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/hfe/!svn/ver/17/trunk/WebContent/WEB-INF/classes/log4j.xml
+END
+HttpFileExplorer.properties
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/hfe/!svn/ver/17/trunk/WebContent/WEB-INF/classes/HttpFileExplorer.properties
+END

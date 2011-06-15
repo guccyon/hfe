@@ -1,0 +1,85 @@
+@CHARSET "utf-8";
+
+/* overlay form */
+#overlay {
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 100%;
+	background-color: gray;
+}
+#form_contents_block {
+	position: absolute;
+	z-index: 91;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	display: none;
+}
+
+#indicator {
+	width: 200px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	text-align: center;
+}
+	#indicator p {
+		margin-top: 10px;
+		color: #DDDDDD;
+	}
+
+.modal_form {
+	width: 500px;
+	height: 80%;
+	overflow: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	padding: 20px 10px 0 10px;
+	border: solid 10px #BFBFBF;
+	background-color: #FFF;
+}
+	.modal_form ul#upforms {
+		list-style: none;
+		margin: 30px 0;
+	}
+	.modal_form ul li {
+		margin-top: 10px;
+	}
+	.modal_form ul li input{
+		right: 0;
+	}
+	.modal_form ul li input.file{
+		margin-right: 20px;
+	}
+
+table.file_properties {
+	table-layout: fixed;
+	border-collapse: collapse;
+	margin-top: 15px;
+	margin-left: 10px;
+	width: 90%;
+}
+	.file_properties th {
+		padding: 3px 3px;
+		border: solid 1px;
+		background-color: #DDF6FF;
+		width: 30%;
+	}
+	.file_properties td {
+		padding: 3px 4px;
+		border: solid 1px;
+		white-space: normal;
+	}
+		.file_properties td input{
+			width: 100%;
+			border: none;
+			cursor: default;
+		}
